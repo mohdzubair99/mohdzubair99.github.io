@@ -681,5 +681,17 @@ nav ul .fa-solid{
 {
    margin-left: 5px;
 }
-
+/*--copyright styling*/
+    
+    
+    .copyright {
+    width:100%;
+    text-align: center;
+    padding: 25px 0;
+    background:#262626;
+    border-radius: 20%;
+    font-weight: 300;
+    margin-top:20px;
+    margin-bottom: 10px;
+}
 }
