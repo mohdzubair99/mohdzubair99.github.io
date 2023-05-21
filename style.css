@@ -4,12 +4,10 @@
     border-color: blue; */
     margin: 0;
     padding: 0;
-    font-family: 'poppins',sans-serif;
+    font-family:  'poppins',sans-serif;
     box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
-}
+
 body{
     /*border-style:solid;
     border-color: red; */
@@ -21,7 +19,7 @@ body{
     border-color: red; */
     width:100%;
     height: 100vh;
-    background-image: url("images/backimg.png"); /*images/backimg.png*/
+    background-image: url("images/main111.png"); /*images/backimg.png*/
     background-size: cover;
     background-position: center;
 }
@@ -39,6 +37,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 .logo{
     width: 190px;
@@ -49,12 +48,14 @@ nav ul li{
     display:inline-block;
     list-style: none;
     margin:10px 20px;
+
 }
 nav ul li a{
     color:#fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
     position: relative;
+
 }
 nav ul li a::after{
     content: '';
@@ -96,12 +97,28 @@ nav .fa-solid{
     display:none;
 }
 /*--------------------------------------------------about-styling-----------------------------------------*/
-#about{
+#about
+{
+    background-color: #fff;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left:25px;
+    padding-right: 25px;
+    
+}
+ .about-container{
    /* border-style: solid;
     border-color: rebeccapurple; */
-    padding: 0 80px; 
-    color:#ababab;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding: 40px 80px; 
 
+    color:#fff;
+    background-color: gray;
+    border-radius: 10%;
+    
+    
+    
 }
 .row{
     margin-top: 30px;
@@ -115,27 +132,36 @@ nav .fa-solid{
 .about-col-1 img{
     width:100%;
     border-radius: 15px;/*round corner of image*/
+    min-height: 60vh;
+
 }
 .m3{
     margin-top: 10px;
     margin-left:48px;
 }
 .about-col-2{
+    
     flex-basis: 60%;/*there is 5% space between 1&2column 60+35=95*/
+}
+.about-col-2 h1{
+    color:black;
 }
 .sub-title{
     font-size:50px;
     /*font-style*/
     font-weight: 600;
-    color:#fff;
+    color:white;
 }
 .about-col-2 p{
     font-size:20px;
+    font-family: cursive;
+    
 }
 .about-col-2 p span{
     
     font-style: italic;
-    color:#05e471;
+    color:black;
+    font-weight: bold;
 
 }
 .tab-titles{
@@ -144,6 +170,7 @@ nav .fa-solid{
 }
 .tab-titles p{
     font-size: 24px;
+    color: black;
 }
 .tab-links{
     margin-right: 50px;
@@ -156,7 +183,7 @@ nav .fa-solid{
     content: '';
     width:0;
     height:3px;
-    background:#05e471;
+    background:#fff;
     position: absolute;
     left:0;
     bottom: -8px;
@@ -170,9 +197,10 @@ nav .fa-solid{
     list-style: none;
     margin:10px 0;
     font-style: italic;
+    font-weight: 600;
 }   
 .tab-contents ul li span{ 
-    color:    rgb(96, 96, 187);/*#48b6e9;*/
+    color:   black;/* rgb(96, 96, 187);/*#48b6e9;*/
     font-size: 22px;
     font-style: italic;
 }  
@@ -184,8 +212,24 @@ nav .fa-solid{
 }
 /*--------------------------------------------Academics-styling---------------------------------------------*/
 
-#academics{
-    padding:30px 0;
+#academics {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:#fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+.academics-container {
+    padding:80px 90px;
+    background-color: gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    
 }
 .academics-list{
     display: grid;
@@ -222,10 +266,23 @@ nav .fa-solid{
     transform:translateY(-10px);
     color:#080808;
 }
-/*-------------------------------------------------------Procject-Styling---------------------------------------*/
-
+/*-------------------------------------------------------Project-Styling---------------------------------------*/
 #project{
-    padding:50px 0;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:#fff;
+
+}
+.project-container{
+    
+    padding-top:80px;
+    padding-bottom: 80px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: gray;
+    border-radius: 10%;
 }
 .project-list{
     display: grid;
@@ -292,6 +349,25 @@ nav .fa-solid{
 }
 /*------------------------------------------contact-styling---------------------------------------------*/
 
+#contact
+{
+    background-color:#fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+#contact .row
+{
+    background-color:#262626;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    border-radius: 1%;
+    margin-bottom: 10px;
+    padding:35px 90px;
+}
 .contact-left{
     flex-basis: 35%;
 }
@@ -317,7 +393,7 @@ nav .fa-solid{
     text-decoration:none;
     font-size: 30px;
     margin-right: 15px;
-    color:#ababab;
+    color:#fff;
     display: inline-block;
     transition: transform 1s;
 }
@@ -357,10 +433,10 @@ form input, form textarea{
     width:100%;
     border :0;
     outline:none;
-    background:#262626;
+    background:#fff;
     padding:15px;
     margin:15px 0;
-    color:#fff;
+    color:black;
     font-size:18px;
     border-radius: 6px;
 }
@@ -371,17 +447,35 @@ form input, form textarea{
     margin-bottom: -4px;
 }
 /*---------------------------------------copywrite-styling---------------------------------*/
-.copywrite{
+.copyright {
     width:100%;
     text-align: center;
     padding: 25px 0;
     background:#262626;
+    border-radius: 80%;
     font-weight: 300;
     margin-top:20px;
+    margin-bottom: 10px;
 }
-.copywrite i{
+.copyright i 
+{
     color:#05e471;
 }
+.fa
+{
+    color: red !important;
+}
+.p3 a
+{
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+
+}
+
   #msg{
     color:#05e471;
     margin-top: 10px;
@@ -456,9 +550,31 @@ nav ul .fa-solid{
     cursor: pointer;
 }
   /*-------------------------------about responsive --------------------------*/
+  #about
+{
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:25px;
+    padding-right: 25px;
+    
+    
+} 
+  #about-container{
+    /* border-style: solid;
+     border-color: rebeccapurple; */
+     padding: 20px 80px; 
+     color:#fff;
+     background-color: #262626;
+     margin-top: 15px;
+     margin-bottom: 25px;
+     
 
+     
+ }
 .sub-title{
     font-size:40px;
+    
 }
  .about-col-1, .about-col-2
 {
@@ -467,7 +583,7 @@ nav ul .fa-solid{
   
 }
 .about-col-1{
-    margin-left:-40px;
+    margin-left:0;
 
 }
 .m3{
@@ -475,18 +591,80 @@ nav ul .fa-solid{
 }
 .about-col-2{
     font-size: 14px;
-    margin-left: -60px;
+    margin-left: -12px;
 
 
+}
+.about-col-2 p {
+      margin-left:-25px;
 }
 
 .tab-links{
     font: size 16px;
-    margin-right:20px;
+    margin-right:40px;
+}
+/*--------academics responsive-----*/
+#academics {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:#fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+.academics-container {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: gray;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    border-radius: 1%;
+    
+}
+/*--------project responsive-----*/
+#project{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:#fff;
+
+}
+.project-container{
+    
+    padding-top:60px;
+    padding-bottom: 60px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: gray;
+    border-radius: 1%;
 }
 
 /*----------contact responsive---------*/
-
+#contact
+{
+    background-color:#fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+#contact .row
+{
+    background-color:#262626;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    border-radius: 1%;
+    
+    padding-left: 25px;
+}
 .contact-left, .contact-right{
     flex-basis: 100%;
 }
@@ -499,6 +677,9 @@ nav ul .fa-solid{
     margin:auto;
     margin-bottom: -5px;
 }
-
+.contact-right .btn, .contact-left .btn
+{
+   margin-left: 5px;
+}
 
 }
