@@ -1,4 +1,8 @@
-
+/* Apply a max-width to the body element */
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 *{
   border-style: none;
 }
