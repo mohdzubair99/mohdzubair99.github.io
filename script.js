@@ -1,1 +1,91 @@
-const _0x28b1d1=_0x3e38;function _0x13dc(){const _0x57a632=['1810732DteEJA','messageContainer','.hero','Software\x20Engineer','11005694eeMgFJ','floor','block','1164666BpBuJB','5148840ynOPoj','Instructor','toggle','scroll','1154bPdMlX','getElementById','1634CTXWGP','display','random','328esKzPY','<i\x20class=\x22fas\x20fa-sun\x22></i>','--primary-color','classList','.courses','DOMContentLoaded','20REOtrJ','dark-mode','contains','addEventListener','none','toggle-dark-mode','20889lYWPuf','body','darkModeToggle','innerHTML','style','setProperty','toString','smooth','click','8976symBKY','querySelector'];_0x13dc=function(){return _0x57a632;};return _0x13dc();}(function(_0x5c52ec,_0x2251ec){const _0x2f117a=_0x3e38,_0x5285d9=_0x5c52ec();while(!![]){try{const _0x4ddefc=parseInt(_0x2f117a(0x8b))/0x1*(parseInt(_0x2f117a(0x8d))/0x2)+-parseInt(_0x2f117a(0x7d))/0x3+-parseInt(_0x2f117a(0x7f))/0x4+parseInt(_0x2f117a(0x96))/0x5*(-parseInt(_0x2f117a(0x86))/0x6)+parseInt(_0x2f117a(0x83))/0x7+parseInt(_0x2f117a(0x90))/0x8*(parseInt(_0x2f117a(0x9c))/0x9)+-parseInt(_0x2f117a(0x87))/0xa;if(_0x4ddefc===_0x2251ec)break;else _0x5285d9['push'](_0x5285d9['shift']());}catch(_0x1c9c3e){_0x5285d9['push'](_0x5285d9['shift']());}}}(_0x13dc,0xd2bf2),window[_0x28b1d1(0x99)](_0x28b1d1(0x95),function(){const _0x3e0bcb=_0x28b1d1;function _0x26fd90(){const _0x37cac1=_0x3e38;innerWidth<=0x1a4&&innerHeight<=0x31f?(document[_0x37cac1(0x8c)]('messageOverlay')[_0x37cac1(0xa0)][_0x37cac1(0x8e)]=_0x37cac1(0x85),document[_0x37cac1(0x8c)](_0x37cac1(0x80))[_0x37cac1(0xa0)][_0x37cac1(0x8e)]=_0x37cac1(0x85)):(document[_0x37cac1(0x8c)]('messageOverlay')[_0x37cac1(0xa0)]['display']=_0x37cac1(0x9a),document[_0x37cac1(0x8c)](_0x37cac1(0x80))[_0x37cac1(0xa0)]['display']=_0x37cac1(0x9a));}_0x26fd90(),window[_0x3e0bcb(0x99)]('resize',_0x26fd90);}));const darkModeToggle=document[_0x28b1d1(0x8c)](_0x28b1d1(0x9e)),body=document[_0x28b1d1(0x9d)];function toggleDarkMode(){const _0x500cdb=_0x28b1d1;body[_0x500cdb(0x93)][_0x500cdb(0x89)](_0x500cdb(0x97)),darkModeToggle[_0x500cdb(0x9f)]=body[_0x500cdb(0x93)][_0x500cdb(0x98)](_0x500cdb(0x97))?'<i\x20class=\x22fas\x20fa-moon\x22></i>':_0x500cdb(0x91);}const heroSection=document[_0x28b1d1(0x7e)](_0x28b1d1(0x81)),featuresSection=document[_0x28b1d1(0x7e)]('.features'),coursesSection=document[_0x28b1d1(0x7e)](_0x28b1d1(0x94));setInterval(()=>{const _0x5b1bd2=_0x28b1d1,_0x19b2a5=Math[_0x5b1bd2(0x84)](Math[_0x5b1bd2(0x8f)]()*0xffffff)[_0x5b1bd2(0xa2)](0x10),_0x56686e='#'+_0x19b2a5;body[_0x5b1bd2(0xa0)][_0x5b1bd2(0xa1)](_0x5b1bd2(0x92),_0x56686e),heroSection[_0x5b1bd2(0xa0)][_0x5b1bd2(0xa1)](_0x5b1bd2(0x92),_0x56686e),featuresSection[_0x5b1bd2(0xa0)][_0x5b1bd2(0xa1)](_0x5b1bd2(0x92),_0x56686e),coursesSection[_0x5b1bd2(0xa0)][_0x5b1bd2(0xa1)]('--primary-color',_0x56686e);},0x1388);const toggleDarkModeButton=document['getElementById'](_0x28b1d1(0x9b)),contactFormContainer=document[_0x28b1d1(0x7e)]('.contact-form-container');toggleDarkModeButton['addEventListener'](_0x28b1d1(0x7c),()=>{const _0x4a7046=_0x28b1d1;contactFormContainer[_0x4a7046(0x93)][_0x4a7046(0x89)](_0x4a7046(0x97));});var typed=new Typed('.auto-type',{'strings':[_0x28b1d1(0x82),_0x28b1d1(0x88),'Coder','Freelancer','Learner'],'typeSpeed':0x50,'backSpeed':0x46,'loop':!![]});const scrollUpButton=document[_0x28b1d1(0x8c)]('scroll-up-button');function _0x3e38(_0x276ca6,_0x13923d){const _0x13dc59=_0x13dc();return _0x3e38=function(_0x3e3889,_0x399a30){_0x3e3889=_0x3e3889-0x7b;let _0xd9cced=_0x13dc59[_0x3e3889];return _0xd9cced;},_0x3e38(_0x276ca6,_0x13923d);}scrollUpButton[_0x28b1d1(0x99)](_0x28b1d1(0x7c),()=>{const _0x159fc6=_0x28b1d1;window['scrollTo']({'top':0x0,'behavior':_0x159fc6(0x7b)});}),window[_0x28b1d1(0x99)](_0x28b1d1(0x8a),()=>{const _0x54b7ec=_0x28b1d1;window['scrollY']>0x12c?scrollUpButton[_0x54b7ec(0xa0)][_0x54b7ec(0x8e)]=_0x54b7ec(0x85):scrollUpButton[_0x54b7ec(0xa0)][_0x54b7ec(0x8e)]=_0x54b7ec(0x9a);});
+// JavaScript to show the message only on smaller screens
+window.addEventListener('DOMContentLoaded', function() {
+  // Function to check screen size and show/hide the message overlay and container
+  function checkScreenSize() {
+    // Check if the window width is less than or equal to 360 pixels and window height is less than or equal to 800 pixels
+    if (innerWidth <=420 && innerHeight <=799) {
+      // Show the message overlay
+      document.getElementById('messageOverlay').style.display = 'block';
+      // Show the message container
+      document.getElementById('messageContainer').style.display = 'block';
+    } else {
+      // Hide the message overlay
+      document.getElementById('messageOverlay').style.display = 'none';
+      // Hide the message container
+      document.getElementById('messageContainer').style.display = 'none';
+    }
+  }
+
+  // Call the function on page load
+  checkScreenSize();
+
+  // Call the function on window resize
+  window.addEventListener('resize', checkScreenSize);
+});
+
+    // Dark Mode Toggle
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const body = document.body;
+
+    function toggleDarkMode() {
+      body.classList.toggle('dark-mode');
+      darkModeToggle.innerHTML = body.classList.contains('dark-mode') ? '<i class="fas fa-moon"></i>' : '<i class="fas fa-sun"></i>';
+    }
+
+    // Automatic Color Change
+    const heroSection = document.querySelector('.hero');
+    const featuresSection = document.querySelector('.features');
+    const coursesSection = document.querySelector('.courses');
+    
+
+    setInterval(() => {
+      const randomColor = Math.floor(Math.random() * 16777215).toString(16);
+      const primaryColor = '#' + randomColor;
+
+      body.style.setProperty('--primary-color', primaryColor);
+      heroSection.style.setProperty('--primary-color', primaryColor);
+      featuresSection.style.setProperty('--primary-color', primaryColor);
+      coursesSection.style.setProperty('--primary-color', primaryColor);
+      
+    }, 5000);
+    
+     // JavaScript for Dark Mode Toggle Button
+const toggleDarkModeButton = document.getElementById('toggle-dark-mode');
+const contactFormContainer = document.querySelector('.contact-form-container');
+
+toggleDarkModeButton.addEventListener('click', () => {
+    // Toggle dark mode class on the contact form container
+    contactFormContainer.classList.toggle('dark-mode');
+});
+
+  
+    // typing-text auto
+
+    var typed = new Typed(".auto-type",{strings:["Software Engineer","Instructor","Coder","Freelancer","Learner"],
+    typeSpeed:80,
+    backSpeed:70,
+    loop:true
+  });
+
+  // JavaScript for Scroll-up Button
+const scrollUpButton = document.getElementById('scroll-up-button');
+
+scrollUpButton.addEventListener('click', () => {
+    // Scroll to the top of the page smoothly
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+// Show or hide the scroll-up button based on scroll position
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        scrollUpButton.style.display = 'block';
+    } else {
+        scrollUpButton.style.display = 'none';
+    }
+});
+
+
+
